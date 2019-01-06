@@ -5,13 +5,12 @@ package creational.abstractfactory;
  * Abstract Factory Pattern
  *
  * Requirement:
- *   Create UI components with creational.abstractfactory.OS specific appearance.
- *   For example: creational.abstractfactory.Button or other UI components should appear different in Windows and Mac
+ *   Create UI components with OS specific appearance.
+ *   For example: Button or other UI components should appear different in Windows and Mac
  *
- *   Create more than 1 types of Objects for a given condition like in above case it is creational.abstractfactory.OS.
+ *   Create more than 1 types of Objects for a given condition like in above case it is OS
  *
  */
-
 public class Main {
 
     public static void main(String[] args) {
